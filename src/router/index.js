@@ -65,6 +65,16 @@ const routes = [
     meta:{
       isLogin:true
     }
+  },
+  {
+    path: '/list',
+    name: 'list',
+    component: () => import('../views/list.vue')
+  },
+  {
+    path: '/search',
+    name: 'search',
+    component: () => import('../views/search.vue')
   }
 ]
 
