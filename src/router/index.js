@@ -48,11 +48,7 @@ const routes = [
       isLogin:true
     }
   },
-  {
-    path: '/sosuo',
-    name: 'sosuo',
-    component: () => import('../views/sosuo.vue')
-  },
+ 
   {
     path: '/text',
     name: 'text',
@@ -67,7 +63,7 @@ const routes = [
     }
   },
   {
-    path: '/list',
+    path: '/searchlist',
     name: 'list',
     component: () => import('../views/list.vue')
   },

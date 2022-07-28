@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import { search } from "@/api/home";
+import { search } from "@/utils/api";
 import { Search,Icon } from "vant";
 function debounce(fn, t = 500) {
   let timer = null;

@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import { search as searchApi } from "@/api/home";
+import { search as searchApi } from "@/utils/api";
 import { List, PullRefresh } from "vant";
 export default {
   components: {

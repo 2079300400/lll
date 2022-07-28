@@ -33,3 +33,6 @@ export function getQiniuToken(){
 export function uploadqiniu(formdata){
     return http.post("https://upload-z1.qiniup.com",formdata )
 }
+export function search(params){
+    return http.post("/api/search",params )
+}
